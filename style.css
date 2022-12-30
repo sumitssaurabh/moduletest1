@@ -1,0 +1,252 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px;
+    margin: 7px 40px 0px 10px;
+    
+}
+a[href]{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 29px;
+}
+a:after{
+    text-decoration-line: underline ;
+    color: aliceblue;
+    text-shadow: 1cm;
+}
+.main{
+    height: 555px;
+   width:  100%;
+    background-color: black;
+    margin-top: 10px;
+    position: relative;
+    bottom: 23px;
+
+}
+.nav-head {
+    padding: 0px 10px;
+}
+
+.land{
+ 
+  color: white;
+  height: 550px;
+  width: 700px;
+}
+
+.bb{
+    height: 6%;
+    width: 106%;
+    margin-top: 57px;
+    margin-left: 81px;
+}
+ 
+
+.header{
+    background-color: black;
+    height: 35px;
+    /* width: 1200px; */
+    width: 100%;
+    position: fixed;
+    font-family: ;
+    margin-top: -57px;
+    z-index: 2;
+}
+.items{
+  
+    font-family: monospace;
+    font-size: 186px;
+}
+  
+
+.landing{
+   
+    height: 7%;
+    width: 43%;
+    margin-top: 23px;
+    margin-left: 81px
+   
+   
+   
+}
+.page{
+    height: 27%;
+    width: 106%;
+    font-size: 192px;
+    margin-top: 67px;
+    margin-left: 81px;
+}
+.pic {
+    border: 1px sold red;
+    margin: -101px;
+    margin-left: 1059px;
+    width: 100px;
+    margin-top: -307px;
+ 
+ 
+ 
+ 
+ 
+}
+
+.letter{
+     border:1px solid rgb(228, 3, 3);
+     margin left: 255px;
+     margin bottom:20px;
+   }
+   .pi{
+    
+    border: 1px solid rgb(3, 228, 138);
+    height: 463px;
+    width: 350px;
+    margin-left: 141px;
+    /* margin-top: 27px; */
+}
+.para{
+        width: 900px;
+        margin-top: 10px;
+   }
+  
+   .about{
+     
+    width: 100px;
+    margin-left: 576px;
+    /* margin-right: -678px; */
+    margin-bottom: 41px;
+        margin-top: -540px;
+        
+
+  
+}
+   .section{
+    margin-top: 10rem;
+   }
+      
+.aboutus{
+    font-size: 70px;
+    /* margin-top: -64px; */
+    margin-right: -90px; 
+    width: 400px;
+    /* width:100%; */
+}
+ 
+ .ourservice{
+    border: 1px solid white;
+    margin-left: 136px;
+
+    margin-top: 15rem;
+    font-size: 45px;
+    
+ }
+ 
+ .fl{
+    margin-left: 136px;
+    display: flex;
+    gap: 30px;
+ 
+ }
+   
+ .service{
+    border: 1px solid rgb(21, 21, 21);
+    overflow-x: scroll;
+    max-width: 440px;
+    /* margin-left: 20px; */
+ }
+
+ .service:hover{
+    background-color: black;
+    color: white;
+    animation-name: service;
+  animation-delay: .3s;
+ }
+
+ @keyframes service {
+    /* from {background-color: red;} */
+    to {background-color: black;
+    color:white;}
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ .paraHeader{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin-left: 20px;
+    padding-left: 10px;
+    /* align-items: left; */
+ }
+ .paraService{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin-left: 20px;
+    /* align-items: left; */
+    padding-left: 10px;
+    padding-right: 10px;
+
+ }
+
+ .form{
+    border: 1px solid rgb(210, 26, 26);
+    background-color: black;
+    margin-top: 200px;
+    height:30rem;
+    /* margin-bottom: 500px; */
+
+ }
+ .contact{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+ }
+ 
+ .land{
+    animation: fadeIn 2s;
+ }   
+ 
+ @keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+
+ .inputBox{
+    margin-left: 120px;
+    border: 2px solid white;
+    height: 23px;
+    width: 80%;
+}
+ input{
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+ }
+ input:hover{
+    
+    border: 2px solid blue;
+    
+ }
+ .btn{
+    background-color: white;
+    margin-left: 120px;
+    width: 8%;
+    height: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+ }
+
+ .btn:hover{
+    border: 2px solid blue;
+ }

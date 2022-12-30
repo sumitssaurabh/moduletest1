@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="javascript.js">
+</head>
+<body>
+    <header class="header">
+        <div class="navbar" >
+            <div class="business">
+            <a href="#">Business Name</a>
+            </div>
+            <div class ="nav">
+            
+              <a class="nav-head" href="#topSection">Home</a>
+              <a class="nav-head" href="#aboutUsImage">About Us</a>
+              <a class="nav-head" href="#ourServices">Our Services</a>
+              <a class="nav-head" href="#contactUs">Contact Us</a>
+            
+            </div>
+        </div>
+    </header>
+<main class="main" id="topSection">
+    <div class="land items" >
+     <h1 class ="bb items">BUSINESS </h1>
+     <h1 class="landing items">LANDING </h1>
+     <h1 class="page items">PAGE</h1>
+    </div>
+    <div class="pic">
+           <img src="https://th.bing.com/th/id/OIP.wD0U6PXg-iDh1hJ0qasZrQHaEW?w=286&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"   alt="pic is loading">
+    </div>
+       
+    
+</main>
+
+<section  class="section">
+        <div class="pi" id="aboutUsImage">
+            <img src="https://i.redd.it/uyebxxos16f31.jpg" width="350" height="463px" alt="">
+        </div>
+        <div class="about" id="aboutUs"><h1 class="aboutus" >ABOUT US</h1>
+            <div class="para">
+                <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis impedit ea, rerum quasi culpa pariatur. Accusamus aperiam, 
+                    iste nobis repellendus quod sunt! Ipsam consequuntur explicabo accusantium, dolores perspiciatis ex aspernatur cumque quas nesciunt vitae 
+                    exercitationem architecto illum quos ullam dolore ea fugiat praesentium? Asperiores, id in vitae fuga minima facilis eveniet dolorem. Ea recusandae 
+                    doloremque, earum magni tenetur quas blanditiis! Architecto voluptates voluptate, reprehenderit soluta nam rem. Maxime nam aperiam porro, ipsum 
+                    mollitia ut error veritatis eaque nostrum possimus! A, consectetur ab! Voluptatibus, eius fugiat unde, doloremque deserunt iusto eum minus itaque, 
+                    non dicta expedita a tempora omnis dolorem! Officiis perspiciatis soluta tempora fugiat culpa iusto veritatis sunt? A placeat odit, officiis 
+                    consequuntur fugit, error rem corporis voluptas exercitationem natus explicabo dolores alias provident, dicta soluta totam quibusdam! Nisi, 
+                    voluptas?
+                                rro, ipsum mollitia ut error veritatis eaque nostrum 
+                    A, consectetur ab! Voluptatibus, eius fugiat unde, 
+                     deserunt iusto eum minus itaque, non dicta expedita a 
+                    nis dolorem! Officiis perspiciatis soluta tempora fugiat 
+                    o veritatis sunt? A placeat odit, officiis consequuntur 
+                    or rem corporis voluptas exercitationem natus explicabo 
+                    ias provident, dicta soluta totam quibusdam! Nisi, 
+                </p>
+            </div>
+
+</div>
+
+
+
+        <div class="ourservice" id="ourServices">
+            <h1>OUR SERVICES</h1>
+        </div>
+            <div class="fl">
+                <div class="service"><h3 class="paraHeader">Service 1</h3>
+                    <div><p class="paraService">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea distinctio non nam facilis dolores neque, natus quasi voluptatibus magnam nihil ut nemo porro nesciunt provident dignissimos beatae exercitationem, ex nobis fuga totam quae cupiditate odit. Provident libero maxime nostrum laboriosam facere ad vero ipsam recusandae et, optio explicabo praesentium id?
+                    qwertyuiopagasdsadashdgashjdjasdhjaskdhkjasdkjasdjlasdasdk;lasdk;lasd;asd;lasdk;lasdk;lasdk;lasdk;laskd;laskd;lasdk;laskda;skd;ask;
+                       
+                    </p></div>
+
+                </div>
+                <div class="service"><h3 class="paraHeader">Service 2</h3>
+                    <div><p class="paraService" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo velit harum ut architecto, hic omnis mollitia, ex voluptates eius iusto ducimus nostrum debitis qui et quos ipsam? Culpa blanditiis nam ducimus quasi sapiente quo a repudiandae corporis minus cumque. Cumque a impedit deleniti consequatur. Fuga temporibus et vero necessitatibus molestiae.</p></div>
+                </div>
+
+                    <div class="service"><h3 class="paraHeader">Service 3</h3>
+                        <div> <p class="paraService">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam totam laudantium nisi minus suscipit 
+    quos. Velit, beatae animi voluptatum at fugit minus dignissimos! Possimus tempora in, commodi nam molestiae ut dolorem consequuntur aperiam alias 
+    impedit minima! Velit modi libero, eligendi iste reprehenderit corporis, sequi, pariatur voluptatum itaque odio officia ab.</p>
+</div>
+    
+                 </div>       
+                </div>
+
+
+
+       
+       
+        
+    
+</section>
+
+<div class="form" id="contactUs"> 
+       <div><h1 class="contact">CONTACT US</h1></div>
+       <div class="inputBox"> <input type="text" placeholder="Full Name" id="fullName" required></div>
+       <br>
+       <div class="inputBox"><input type="text" placeholder="Last Name"  id="lastName" required></div>
+       <br>
+       <div class="inputBox"><input type="email" placeholder="Email Addresss"  id="email" required></div>
+       <br>
+       <div class="inputBox"><input type="email" placeholder="Reason For Contacting"  id="reasonForContacting" required></div>
+      <div> 
+       <br>
+       <button class="btn" id="submit" onclick="onSubmit()">Submit</button>
+</div>
+
+
+<script>
+    function onSubmit() {
+        let fullName = document.getElementById('fullName').value;
+        let lastName = document.getElementById('lastName').value;
+        let email = document.getElementById('email').value;
+        let reasonForContacting = document.getElementById('reasonForContacting').value;
+        if(fullName !== '' && lastName !== '' && email !== '' && reasonForContacting !== '' )
+alert("Success");
+    }
+    </script>
+</body>
+</html>
